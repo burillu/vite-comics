@@ -20,8 +20,4 @@ export default {
 }
 </script>
 
-<style scoped>
-header {
-    background-color: aquamarine;
-}
-</style>
+<style lang="scss" scoped></style>

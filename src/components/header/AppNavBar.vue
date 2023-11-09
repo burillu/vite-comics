@@ -1,8 +1,9 @@
 <template>
-    <nav>
-        <ul>
-            <li v-for="item in menu" :key="item.id">
-                <a :href="item.href">{{ item.titolo }}</a>
+    <nav class="">
+
+        <ul class="nav">
+            <li class="nav-item" v-for="item in menu" :key="item.id">
+                <a class="nav-link" :class="{ 'active': item.active }" :href="item.href">{{ item.titolo }}</a>
 
             </li>
         </ul>
@@ -42,7 +43,7 @@ export default {
                 {
                     href: '#',
                     titolo: "Shop",
-                    active: false,
+                    active: true,
                     id: 5
                 },
                 {
@@ -84,8 +85,4 @@ export default {
 }
 </script>
 
-<style scoped>
-ul {
-    list-style-type: none;
-}
-</style>
+<style lang="scss" scoped></style>

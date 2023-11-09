@@ -21,7 +21,7 @@ export default {
 <style scoped>
 footer {
     color: white;
-    background-image: url('../../public/images/footer-bg.jpg');
+    background-image: url('/images/footer-bg.jpg');
     height: 30vh;
 }
 </style>
