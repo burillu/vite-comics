@@ -1,10 +1,13 @@
 <template>
     <header>
         header con navbar
+        <AppNavBar />
     </header>
 </template>
 
 <script>
+import AppNavBar from './header/AppNavBar.vue';
+
 export default {
     name: 'AppHeader',
     data() {
@@ -12,7 +15,7 @@ export default {
 
         }
     }, components: {
-
+        AppNavBar
     }
 }
 </script>
