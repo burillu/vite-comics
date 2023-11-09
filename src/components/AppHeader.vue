@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container d-flex justify-content-between">
+        <div class="container d-flex justify-content-between align-items-center">
             <div class="my-img-container">
                 <img :src="srcLogo" alt="logo-dc">
             </div>

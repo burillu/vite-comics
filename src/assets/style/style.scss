@@ -2,8 +2,14 @@ $my-primary: #0282F9;
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
 }
 
 .my-primary {
   background-color: $my-primary;
+}
+
+.my-active {
+  color: $my-primary;
+  border-bottom: 3px $my-primary;
 }

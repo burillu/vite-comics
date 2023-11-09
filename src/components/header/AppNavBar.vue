@@ -1,9 +1,9 @@
 <template>
     <nav class="">
 
-        <ul class="nav">
+        <ul class="nav text-secondary fw-bold text-uppercase">
             <li class="nav-item" v-for="item in menu" :key="item.id">
-                <a class="nav-link" :class="{ 'active': item.active }" :href="item.href">{{ item.titolo }}</a>
+                <a class="nav-link" :class="{ 'my-active': item.active }" :href="item.href">{{ item.titolo }}</a>
 
             </li>
         </ul>
