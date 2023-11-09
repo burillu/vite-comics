@@ -1,9 +1,12 @@
 <template>
-    <main>
+    <main class="bg-primary text-white">
         questo è il main
+        <AppList />
     </main>
 </template>
 <script>
+import AppList from './main/AppList.vue';
+
 export default {
     name: 'AppMain',
     data() {
@@ -12,13 +15,8 @@ export default {
         }
     },
     components: {
-
+        AppList
     }
 }
 </script>
-<style scoped>
-main {
-    background-color: black;
-    color: white;
-}
-</style>
+<style lang="scss" scoped></style>
