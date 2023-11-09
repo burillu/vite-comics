@@ -1,5 +1,5 @@
 <template>
-    <main class="bg-primary text-white">
+    <main class="text-white my-primary">
         questo è il main
         <AppList />
     </main>

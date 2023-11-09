@@ -1,7 +1,12 @@
 <template>
     <header>
-        header con navbar
-        <AppNavBar />
+        <div class="container d-flex justify-content-between">
+            <div class="my-img-container">
+                <img :src="srcLogo" alt="logo-dc">
+            </div>
+            <AppNavBar />
+        </div>
+
     </header>
 </template>
 
@@ -12,7 +17,7 @@ export default {
     name: 'AppHeader',
     data() {
         return {
-
+            srcLogo: '/images/dc-logo.png'
         }
     }, components: {
         AppNavBar
@@ -20,4 +25,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+header {
+    background-color: white;
+
+    .my-img-container img {
+        width: 50px;
+    }
+}
+</style>

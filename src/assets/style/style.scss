@@ -1,5 +1,9 @@
-//@import 
+$my-primary: #0282F9;
 
 body {
   font-family: 'Open Sans', sans-serif;
+}
+
+.my-primary {
+  background-color: $my-primary;
 }
