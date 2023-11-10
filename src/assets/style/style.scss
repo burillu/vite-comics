@@ -1,8 +1,9 @@
 $my-primary: #0282F9;
+$my-secondary: #303030;
 
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.9em;
+
 }
 
 .my-primary {
@@ -12,4 +13,14 @@ body {
 .my-active {
   color: $my-primary;
   border-bottom: 3px $my-primary;
+}
+
+.my-bg-secondary {
+  background-color: $my-secondary;
+}
+
+.my-bg-dc {
+  height: 200px;
+  background-image: url('images/dc-logo-bg.png');
+  background-size: 50%;
 }

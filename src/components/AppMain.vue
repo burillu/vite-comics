@@ -1,7 +1,11 @@
 <template>
     <main class="text-white my-primary">
-        questo è il main
-        <AppList />
+
+        <div class="container">
+
+            <AppList />
+        </div>
+
     </main>
 </template>
 <script>

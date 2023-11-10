@@ -1,6 +1,13 @@
 <template>
     <footer>
-        Questo è il footer
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col ">
+                    <img src="images/dc-logo-bg.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
@@ -22,6 +29,6 @@ export default {
 footer {
     color: white;
     background-image: url('/images/footer-bg.jpg');
-    height: 30vh;
+
 }
 </style>
