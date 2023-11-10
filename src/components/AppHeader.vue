@@ -28,6 +28,8 @@ export default {
 <style lang="scss" scoped>
 header {
     background-color: white;
+    font-family: 'Open Sans Condensed';
+    font-size: 16px;
 
     .my-img-container img {
         width: 50px;
