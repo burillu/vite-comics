@@ -1,7 +1,8 @@
 <template>
     <main class="text-white">
+        <AppHero />
         <div class="bg-black">
-            <div class="container">
+            <div class="container py-3">
                 <div class="row">
                     <div v-for="(item, index) in cards" class="col-6 col-md-4 col-lg-2">
                         <AppCard :thumb="item.thumb" :price="item.price" :series="item.series" />
@@ -25,6 +26,7 @@
 </template>
 <script>
 import AppCard from './main/AppCard.vue';
+import AppHero from './main/AppHero.vue';
 import AppList from './main/AppList.vue';
 
 export default {
@@ -109,7 +111,8 @@ export default {
     },
     components: {
         AppList,
-        AppCard
+        AppCard,
+        AppHero
     }
 }
 </script>

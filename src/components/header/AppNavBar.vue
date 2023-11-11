@@ -86,7 +86,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-a {
-    font-size: 0.6em;
+@use '../../assets/style/style.scss';
+
+a.nav-link {
+    color: inherit;
+
+}
+
+.my-active {
+    color: blue;
+    border-bottom: 3px solid blue;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container d-flex justify-content-between align-items-center h-100">
             <div class="my-img-container">
                 <img :src="srcLogo" alt="logo-dc">
             </div>
@@ -30,6 +30,7 @@ header {
     background-color: white;
     font-family: 'Open Sans Condensed';
     font-size: 16px;
+    height: 80px;
 
     .my-img-container img {
         width: 50px;
