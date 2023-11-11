@@ -3,7 +3,7 @@
         <div class="bg-black">
             <div class="container">
                 <div class="row">
-                    <div v-for="(item, index) in cards" class="col">
+                    <div v-for="(item, index) in cards" class="col-6 col-md-4 col-lg-2">
                         <AppCard :thumb="item.thumb" :price="item.price" :series="item.series" />
                     </div>
                 </div>

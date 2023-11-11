@@ -1,9 +1,12 @@
 <template>
-    <div class="card" style="width: 18rem;">
-        <img :src="thumb" class="card-img-top" :alt="series">
-        <div class="card-body">
-            <h5 class="card-title">{{ series }}</h5>
-            <p class="card-text">{{ price }}</p>
+    <div class="my-card">
+        <div class="my-img-container">
+            <img :src="thumb" class="card-img-top" :alt="series">
+        </div>
+
+        <div class="my-card-body">
+            <h5 class="my-card-title">{{ series }}</h5>
+            <p class="my-card-text">price: {{ price }}</p>
 
         </div>
     </div>
@@ -26,4 +29,15 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+div.my-img-container {
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+
+    img {
+        object-fit: cover;
+        object-position: center;
+    }
+}
+</style>
